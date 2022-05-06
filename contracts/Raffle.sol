@@ -25,8 +25,7 @@ contract Raffle is VRFConsumerBaseV2 {
   uint64 public i_subscriptionId;
   uint32 public i_callbackGasLimit;
   address public s_recentWinner;
-
-
+ 
   uint16 public constant REQUEST_CONFIRMATIONS = 3;
   uint32 public constant NUM_WORDS = 1;
 

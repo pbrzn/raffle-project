@@ -1,9 +1,15 @@
 {
   "name": "hardhat-project",
   "devDependencies": {
-    "hardhat": "^2.9.3"
+    "@nomiclabs/hardhat-ethers": "npm:hardhat-deploy-ethers@^0.3.0-beta.13",
+    "ethers": "^5.6.5",
+    "hardhat": "^2.9.3",
+    "prettier": "^2.6.2",
+    "prettier-plugin-solidity": "^1.0.0-beta.19"
   },
   "dependencies": {
-    "@chainlink/contracts": "^0.4.0"
+    "@chainlink/contracts": "^0.4.0",
+    "dotenv": "^16.0.0",
+    "hardhat-deploy": "^0.11.4"
   }
 }
